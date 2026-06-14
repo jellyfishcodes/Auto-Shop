@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apex Auto Care | Premium Local Auto Service</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="script.js" defer></script>
+    
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="site-header">
+        <div class="container header-inner">
+            <a href="#" class="logo">Apex Auto Care</a>
+            
+            <!-- Mobile Navigation Toggle -->
+            <input type="checkbox" id="mobile-menu" class="menu-toggle">
+            <label for="mobile-menu" class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+
+            <nav class="main-nav">
+                <a href="#services">Services</a>
+                <a href="#about">About</a>
+                <a href="#reviews">Reviews</a>
+                <a href="#contact">Contact</a>
+            </nav>
+            
+            <div class="header-cta">
+                <a href="#contact" class="btn btn-primary">Book Service</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container hero-inner">
+                <div class="hero-content">
+                    <span class="eyebrow">Certified Technicians &bull; Honest Pricing</span>
+                    <h1>Dealer-Level Service. Local Prices.</h1>
+                    <p>From diagnostics and maintenance to major repairs, our certified technicians keep your vehicle running at its best with transparent pricing and workmanship you can trust.</p>
+                    
+                    <div class="hero-actions">
+                        <a href="#contact" class="btn btn-primary">Schedule Service</a>
+                        <a href="tel:+15551234567" class="btn btn-secondary">Call Now</a>
+                    </div>
+                    
+                    <ul class="trust-indicators">
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M20 6L9 17L4 12" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                            ASE-Certified Technicians
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M20 6L9 17L4 12" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                            Transparent Estimates
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M20 6L9 17L4 12" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                            5-Star Local Reputation
+                        </li>
+                    </ul>
+                </div>
+                <div class="hero-image-wrapper">
+                    <img src="img/car-in-auto-shop.avif" alt="A modern sports sedan being serviced in a clean, organized workshop">
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="services">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Our Services</h2>
+                    <p>Comprehensive auto care backed by industry expertise. We handle everything from routine maintenance to complex system diagnostics.</p>
+                </div>
+                
+                <div class="services-grid">
+                    <!-- Service 1 -->
+                    <article class="service-card">
+                        <div class="service-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
+                        </div>
+                        <h3>Diagnostics</h3>
+                        <p>State-of-the-art computer diagnostics to accurately pinpoint engine, electrical, and performance issues before they become major problems.</p>
+                        <a href="#contact" class="text-link">Learn More &rarr;</a>
+                    </article>
+
+                    <!-- Service 2 -->
+                    <article class="service-card">
+                        <div class="service-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><circle cx="12" cy="12" r="6"></circle><circle cx="12" cy="12" r="2"></circle></svg>
+                        </div>
+                        <h3>Brake Repair</h3>
+                        <p>Complete brake system inspection, pad and rotor replacement, and fluid exchanges using premium OEM or equivalent parts for your safety.</p>
+                        <a href="#contact" class="text-link">Learn More &rarr;</a>
+                    </article>
+
+                    <!-- Service 3 -->
+                    <article class="service-card">
+                        <div class="service-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path></svg>
+                        </div>
+                        <h3>Engine Maintenance</h3>
+                        <p>From full-synthetic oil changes and filter replacements to timing belts and complete engine tune-ups to extend the life of your vehicle.</p>
+                        <a href="#contact" class="text-link">Learn More &rarr;</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about">
+            <div class="container about-inner">
+                <div class="about-content">
+                    <h2>Built on Trust and Quality Work</h2>
+                    <p>At Apex Auto Care, we believe that premium auto service shouldn't come with a premium headache. We built our shop on the foundation of honest recommendations and fair pricing, ensuring you only pay for what your vehicle truly needs.</p>
+                    <p>Our skilled technicians treat every car as if it were their own. By focusing on precision and utilizing modern diagnostic equipment, we strive to build long-term relationships with everyday drivers who simply want dependable, transparent care.</p>
+                    
+                    <div class="stats-row">
+                        <div class="stat-item">
+                            <h4>10+</h4>
+                            <p>Years Experience</p>
+                        </div>
+                        <div class="stat-item">
+                            <h4>5,000+</h4>
+                            <p>Vehicles Serviced</p>
+                        </div>
+                        <div class="stat-item">
+                            <h4>4.9&#9733;</h4>
+                            <p>Average Rating</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="img/mechanic-working.png" alt="Friendly certified mechanics working in a clean professional workshop.">
+                </div>
+            </div>
+        </section>
+
+        <!-- Reviews Section -->
+        <section id="reviews" class="reviews">
+            <div class="container">
+                <div class="section-header">
+                    <h2>What Our Customers Say</h2>
+                    <p>Don't just take our word for it. Hear from local drivers who trust Apex Auto Care with their vehicles.</p>
+                </div>
+
+                <div class="reviews-grid">
+                    <article class="review-card">
+                        <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                        <blockquote class="review-quote">"Finally, a shop that doesn't try to upsell me on things I don't need. They diagnosed the check engine light, gave me a fair quote, and had me back on the road the next day. The work is solid."</blockquote>
+                        <div class="review-author">
+                            <span class="author-name">Michael R.</span>
+                            <span class="author-vehicle">Honda Civic</span>
+                        </div>
+                    </article>
+
+                    <article class="review-card">
+                        <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                        <blockquote class="review-quote">"The facility is spotless and the staff is incredibly professional. They took the time to explain the brake repairs needed and showed me the worn parts. Dealership quality without the dealership price tag."</blockquote>
+                        <div class="review-author">
+                            <span class="author-name">Sarah T.</span>
+                            <span class="author-vehicle">Toyota Camry</span>
+                        </div>
+                    </article>
+
+                    <article class="review-card">
+                        <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                        <blockquote class="review-quote">"I take a lot of pride in my car, and I'm very picky about who turns a wrench on it. The technicians at Apex are genuine car people. They handled my major scheduled maintenance flawlessly."</blockquote>
+                        <div class="review-author">
+                            <span class="author-name">David P.</span>
+                            <span class="author-vehicle">Ford Mustang</span>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact & Location Section -->
+        <section id="contact" class="contact">
+            <div class="container contact-inner">
+                <!-- Form Area -->
+                <div class="contact-form-container">
+                    <h2>Request Appointment</h2>
+                    <form action="#" method="POST">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name" class="form-control" required placeholder="John Doe">
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" class="form-control" required placeholder="(555) 000-0000">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" class="form-control" required placeholder="john@example.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="service">Service Needed</label>
+                            <select id="service" name="service" class="form-control" required>
+                                <option value="" disabled selected>Select a service...</option>
+                                <option value="diagnostics">Diagnostics & Inspection</option>
+                                <option value="brakes">Brake Service</option>
+                                <option value="engine">Engine Maintenance</option>
+                                <option value="oil">Oil & Fluid Change</option>
+                                <option value="other">Other / Not Sure</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Request Appointment</button>
+                    </form>
+                </div>
+
+                <!-- Map & Location Area -->
+                <div class="location-container">
+                    <h2>Our Location</h2>
+                    <div class="map-wrapper">
+                        <!-- Embedded Google Maps Placeholder -->
+                        <iframe 
+                            src="https://maps.google.com/maps?q=Los%20Angeles,%20CA&t=&z=13&ie=UTF8&iwloc=&output=embed" 
+                            allowfullscreen="" 
+                            loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+                    
+                    <div class="location-details">
+                        <div class="detail-block">
+                            <h4>Address</h4>
+                            <p>1234 Apex Drive<br>Suite 100<br>Metropolis, CA 90210</p>
+                        </div>
+                        <div class="detail-block">
+                            <h4>Contact & Hours</h4>
+                            <p>(555) 123-4567<br>Mon-Fri: 8:00 AM - 6:00 PM<br>Sat: 9:00 AM - 2:00 PM<br>Sun: Closed</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#" class="logo">Apex Auto Care</a>
+                    <p>Dealer-level service combined with local accountability. We are dedicated to keeping your vehicle safe, reliable, and performing at its peak.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#services">Our Services</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#reviews">Customer Reviews</a></li>
+                        <li><a href="#contact">Book Appointment</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#services">Diagnostics</a></li>
+                        <li><a href="#services">Brake Repair</a></li>
+                        <li><a href="#services">Engine Maintenance</a></li>
+                        <li><a href="#services">Scheduled Service</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Apex Auto Care. All rights reserved.</p>
+                <p>Premium Automotive Maintenance & Repair</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
